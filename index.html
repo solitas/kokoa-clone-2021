@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to KokoaTalk</title>
+
+    <!-- font awesome -->
+    
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column" >
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column" >
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column" >
+            <span>11%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">코코아톡에 오신것을 환영합니다</h1>
+        <p class="welcome-header__text">
+            코코아 계정이 있으시다면, <br> 
+            이메일 또는 휴대전화 번호로 로그인해 주세요
+        </p>
+    </header>
+
+    <form action="friends.html" method="GET" id="login-form">
+        <input name="username" type="text" placeholder="Email or phone number"> 
+        <input name="password" type="password" placeholder="Password">
+        <input type="submit" value="Log In">
+        <a href="#">Find Kokoa Account or password</a>
+    </form>
+   
+
+    <script 
+        src="https://kit.fontawesome.com/dfe99f5395.js" 
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>
